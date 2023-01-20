@@ -1,0 +1,3 @@
+scalr_server_git_scalr_enabled=true
+scalr_server_git_scalr_enabled=true
+scalr_server_git_int_sclar_branch="feature/SCALRCORE-22530"
