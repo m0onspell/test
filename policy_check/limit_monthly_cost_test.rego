@@ -1,7 +1,7 @@
 package terraform
 
 test_cost_allowed {
-    result = deny with input huyna as data.mock.valid_input
+    result = deny with input as data.mock.valid_input
     count(result) == 0
 }
 
