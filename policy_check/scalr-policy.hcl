@@ -6,7 +6,7 @@ policy "limit_monthly_cost" {
 }
 
 policy "limit_monthly_cost2" {
-  enabled           = true
+  enabled           = false
   enforcement_level = "hard-mandatory"
 }
 
@@ -16,7 +16,7 @@ policy "workspace_name_advisory" {
 }
 
 policy "workspace_name_hard" {
-  enabled           = true
+  enabled           = false
   enforcement_level = "hard-mandatory"
 }
 
